@@ -23,37 +23,35 @@
 </p>
 
 
-### About this project
+## About this project
 It is an isometric projection of a grid that rotates using arrow keys or WASD keys,  
 This project was created using [**SDL2**](https://en.wikipedia.org/wiki/Simple_DirectMedia_Layer) and [**C programming Language**](https://en.wikipedia.org/wiki/C_(programming_language)).
 
-### How does it work?
+## How does it work?
 - It Reads a file "file_demo".
 - It Generates a window
 - Gets the coordinates of each point from the file
 - Rotates the grid, when the user press the keys
 - Finish program when the user press ESC key or clocks on window Quit button
 
-</br>
-
-### Requirements
+## Requirements
 - SDL2 Lirary
 
-### Usage
-> **1)**  Clone this repository
+## Usage
+**1)**  Clone this repository
 ```sh
 $ git clone https://github.com/fredhii/Raise_the_terrain
 ```
-> **1.1)**  Install SDL2 (*Skip this step if you already have it*)
+**1.1)**  Install SDL2 (*Skip this step if you already have it*)
 ```sh
 $ chmod 755 0_install_SDL2.sh
 $ sudo ./0_install_SDL2.sh
 ```
-> **2)** Compile the program
+**2)** Compile the program
 ```sh
 $ gcc -Wall -Werror -Wextra -pedantic *.c -lm $(sdl2-config --cflags --libs) -o raise_the_terrain
 ```
-> **3)** Run the program
+**3)** Run the program
 ```sh
 $ ./raise_the_terrain <file>
 ```
