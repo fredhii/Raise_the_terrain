@@ -19,7 +19,7 @@
  * @y: y axis value
  * @z: z axis value
  *
- * Description: Grid 3D coordinates   
+ * Description: Grid 3D coordinates
  */
 typedef struct coordinates
 {
@@ -36,7 +36,7 @@ typedef struct coordinates
  * @array: Struct containing graph coordinates
  * @col: Graph width
  * @row: Graph height
- * 
+ *
  * Description: Structure containing common variables
  * in project
  *
@@ -61,7 +61,7 @@ typedef struct variables
 #endif
 #ifndef SCREEN_HEIGHT
 #define SCREEN_HEIGHT 600
-#endif 
+#endif
 
 /* ============================================ */
 /* 2_data_hand.c */
